@@ -1,24 +1,350 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mahjong365: Daily Solitaire</title>
-<meta name="description" content="Calm mahjong solitaire with a level for every day of the year, a daily challenge and no pop-up ads.">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mahjong365 - Daily Mahjong Solitaire with Large Tiles</title>
+<meta name="description" content="Mahjong365 is a calm mahjong solitaire game for Android with large tiles, a new level every day, offline play and no pop-up ads. Free on Google Play.">
+<meta name="theme-color" content="#F3EBDD">
+<link rel="canonical" href="https://gaborkalmar83.github.io/mahjong365-info/">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mahjong365">
+<meta property="og:title" content="Mahjong365 - Daily Mahjong Solitaire with Large Tiles">
+<meta property="og:description" content="Calm mahjong solitaire for Android: large tiles, 365 daily levels in 12 worlds, offline play and no pop-up ads. Free on Google Play.">
+<meta property="og:url" content="https://gaborkalmar83.github.io/mahjong365-info/">
+<meta property="og:image" content="https://gaborkalmar83.github.io/mahjong365-info/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mahjong365 title beside six mahjong tiles with a sun, bamboo, wave, maple leaf, pine and cherry blossom in an ink-wash scene">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mahjong365 - Daily Mahjong Solitaire with Large Tiles">
+<meta name="twitter:description" content="Calm mahjong solitaire for Android: large tiles, 365 daily levels in 12 worlds, offline play and no pop-up ads. Free on Google Play.">
+<meta name="twitter:image" content="https://gaborkalmar83.github.io/mahjong365-info/og-image.jpg">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "VideoGame",
+ "name": "Mahjong365",
+ "description": "Mahjong365 is a calm mahjong solitaire game for Android with large, clear tiles, a level for every day of the year in 12 worlds, a daily challenge, offline play and no pop-up ads. Free to play with one small banner and an optional lifetime Premium purchase.",
+ "operatingSystem": "Android",
+ "applicationCategory": "GameApplication",
+ "gamePlatform": "Android",
+ "genre": "Puzzle",
+ "playMode": "SinglePlayer",
+ "offers": {
+  "@type": "Offer",
+  "price": "0",
+  "priceCurrency": "EUR"
+ },
+ "installUrl": "https://play.google.com/store/apps/details?id=com.kalmarium.mahjong365&referrer=utm_source%3Dwebsite%26utm_medium%3Dhero",
+ "url": "https://gaborkalmar83.github.io/mahjong365-info/",
+ "image": "https://gaborkalmar83.github.io/mahjong365-info/og-image.jpg",
+ "publisher": {
+  "@type": "Organization",
+  "name": "Kalmarium Services BV",
+  "url": "https://kalmarium.com"
+ }
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is Mahjong365 free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. It is free to play, with one small banner at the bottom of the screen and no pop-up ads between levels. Extra hints are available through an optional rewarded video. One optional lifetime Premium purchase unlocks every world and tile style, gives unlimited hints and removes all ads. There is no subscription."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does Mahjong365 work offline?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. You can play without WiFi or mobile data, and there is no account or sign-up. Signing in to Google Play Games is optional and only adds cloud save and leaderboards."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can every board be solved?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Boards are built to be solvable, so there are no dead ends. Undo is unlimited and free, Shuffle is free, and there is no timer that makes you fail."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Is it easy to see for older eyes?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "That is what it is built for. The tiles are large with bold symbols, you can pinch to zoom on any board, classic mahjong tile faces are optional, and the toolbar can be switched to the left-hand side."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is Keen Eye mode?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Keen Eye is a second puzzle mode with 60 boards of near-identical tiles. Press and hold to magnify, then find the true pair."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is there to play after the 365 levels?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Endless mode runs up to level 9999, growing from calm warm-ups to big milestone boards. There are also twelve theme packs, each with its own pictures and 100 levels."
+   }
+  }
+ ]
+}
+</script>
 <style>
-:root{--bg:#F3EBDD;--text:#14181A;--muted:#625B50;--accent:#D9412B}
-@media (prefers-color-scheme:dark){:root{--bg:#14181A;--text:#F3EBDD;--muted:#A8A092;--accent:#E8654F}}
-body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,sans-serif}
-main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
-h1{font:700 2.6rem/1.1 Georgia,serif;margin:0 0 8px}h1 span{color:var(--accent)}
-p.lead{color:var(--muted);font-size:1.15rem}a{color:var(--accent)}
-li{margin:6px 0}
-</style></head><body><main>
-<h1>Mahjong<span>365</span></h1>
-<p class="lead">Calm mahjong solitaire with a level for every day of the year.</p>
-<ul>
-<li>365 levels in 12 worlds: four seasons, China, Japan, Korea, Peru, Ghana, India, Mexico and the Nordics</li>
-<li>A new Daily Challenge every day, with streaks and monthly badges</li>
-<li>Keen Eye puzzles: near-identical tiles, only true pairs match</li>
-<li>Big, clear tiles. Unlimited undo, free shuffle. Plays offline.</li>
-<li>No pop-up ads. One small banner, and one optional lifetime Premium purchase.</li>
+:root{--bg:#F3EBDD;--bg2:#EBE0CB;--card:#FBF7EE;--text:#14181A;--muted:#5F584D;--line:#D9CDB6;--accent:#B3301F;--seal:#D9412B;--jade:#0F5E52;--jade-ink:#0B4A41}
+@media (prefers-color-scheme:dark){:root{--bg:#14181A;--bg2:#1A2023;--card:#1E2426;--text:#F3EBDD;--muted:#B0A898;--line:#303A3D;--accent:#F0735E;--seal:#E8654F;--jade:#5CCBB5;--jade-ink:#8FE0CE}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--jade-ink);text-underline-offset:3px}
+a:hover{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:12px;top:-60px;background:var(--text);color:var(--bg);padding:10px 14px;border-radius:8px;z-index:10;text-decoration:none}
+.skip:focus{top:12px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+h1,h2,h3{font-family:Georgia,"Noto Serif","Times New Roman",serif;line-height:1.15;letter-spacing:-.01em;margin:0}
+h2{font-size:clamp(1.55rem,4.2vw,2.1rem);margin-bottom:10px}
+h3{font-size:1.2rem;margin-bottom:6px}
+section{padding:44px 0}
+.lead{font-size:1.15rem;color:var(--muted);max-width:60ch;margin:0}
+.eyebrow{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0 0 10px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 20px;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:10px;font:700 1.25rem Georgia,serif;color:var(--text);text-decoration:none}
+.brand b{color:var(--accent);font:inherit}
+.brand img{border-radius:8px;display:block}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:4px 18px;font-size:.95rem}
+nav a{color:var(--text);text-decoration:none;padding:6px 0;display:inline-block}
+nav a:hover{color:var(--accent);text-decoration:underline}
+.hero{padding:36px 0 28px;background:radial-gradient(900px 380px at 85% 0,var(--bg2),transparent 70%)}
+.hero .wrap{display:grid;gap:28px;align-items:center}
+.hero h1{font-size:clamp(2rem,6.4vw,3.2rem);margin:0 0 14px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.appicon{width:84px;height:84px;border-radius:20px;display:block;margin-bottom:18px;box-shadow:0 6px 18px rgba(20,24,26,.22)}
+.cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 20px;margin:24px 0 10px}
+.badge{display:inline-block;line-height:0;border-radius:10px}
+.cta small{color:var(--muted);font-size:.95rem}
+.chips{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.chips li{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:3px 13px;font-size:.92rem}
+.art{margin:0;border-radius:22px;overflow:hidden;border:1px solid var(--line);box-shadow:0 14px 34px rgba(20,24,26,.16);background:#E9DCC2}
+.art img{display:block;width:100%;height:auto}
+.grid{display:grid;gap:16px;margin-top:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px}
+.card p{margin:0;color:var(--muted)}
+.card p.num{margin:0 0 8px}
+.num{font:700 1rem Georgia,serif;color:var(--accent);display:flex;align-items:center;gap:10px}
+.num::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--seal);transform:rotate(45deg)}
+.band{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.shots{list-style:none;margin:22px -20px 0;padding:4px 20px 14px;display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:20px;-webkit-overflow-scrolling:touch}
+.shots li{flex:0 0 min(62vw,240px);scroll-snap-align:start}
+.shots figure{margin:0}
+.shots img{display:block;width:100%;height:auto;border-radius:16px;border:1px solid var(--line);background:var(--card)}
+.shots figcaption{font-size:.92rem;color:var(--muted);margin-top:8px}
+.small-list{margin:16px 0 0;padding-left:1.1em}
+.small-list li{margin:6px 0}
+.two{display:grid;gap:22px}
+.price{border-left:5px solid var(--seal);margin-top:18px}
+.price p{color:var(--text)}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:10px 0;padding:2px 18px}
+summary{cursor:pointer;font-weight:650;padding:14px 0}
+details p{margin:0 0 16px;color:var(--muted)}
+footer{border-top:1px solid var(--line);background:var(--bg2);padding:34px 0 44px;font-size:.96rem}
+footer h2{font-size:1.2rem;margin-bottom:8px}
+footer ul{list-style:none;margin:0;padding:0}
+footer .note{color:var(--muted);margin:14px 0 0}
+.more{display:grid;gap:6px 24px;margin-top:6px}
+.more li{padding:3px 0}
+.more li:first-child a{font-weight:700}
+.legal{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted)}
+.legal p{margin:0}
+@media (min-width:720px){
+ body{font-size:18px}
+ .hero{padding:56px 0 44px}
+ .hero .wrap{grid-template-columns:1.15fr .85fr;gap:44px}
+ .grid{grid-template-columns:repeat(2,1fr)}
+ .shots{margin:22px 0 0;padding:4px 0 10px;scroll-padding-left:0;display:grid;grid-template-columns:repeat(3,1fr);overflow:visible;gap:22px 18px}
+ .two{grid-template-columns:1fr 1fr;gap:30px}
+ .more{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+</style>
+<script defer src="https://overwatch.kalmarium.com/h.js" data-app="mahjong365"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+<div class="wrap">
+<a class="brand" href="./"><img src="img/icon-192.webp" width="36" height="36" alt="Mahjong365 app icon"><span>Mahjong<b>365</b></span></a>
+<nav aria-label="Page sections"><ul>
+<li><a href="#features">Features</a></li>
+<li><a href="#screenshots">Screenshots</a></li>
+<li><a href="#who">Who it is for</a></li>
+<li><a href="#price">Price</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul></nav>
+</div>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="top-h">
+<div class="wrap">
+<div>
+<img class="appicon" src="img/icon-192.webp" width="84" height="84" alt="Mahjong365 app icon: a cream mahjong tile with a red sun and a pine branch on a green background">
+<p class="eyebrow">Android game</p>
+<h1 id="top-h">Mahjong365: <em>mahjong solitaire</em> with large tiles and a new level every day</h1>
+<p class="lead">Match two identical tiles, clear the board, and move on. A level for every day of the year, twelve worlds drawn in soft ink and paper, no timer to fail and nothing between your levels.</p>
+<div class="cta">
+<a class="badge" href="https://play.google.com/store/apps/details?id=com.kalmarium.mahjong365&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dhero" aria-label="Get it on Google Play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 54" width="180" height="54" aria-hidden="true" focusable="false"><rect x="1" y="1" width="178" height="52" rx="9" fill="#000" stroke="#8C9AA3" stroke-width="1.5"/><path d="M14 11 L14 43 L32 27 Z" fill="#2EC4B6"/><path d="M14 11 L32 27 L38 21 Z" fill="#8FD8FF"/><path d="M14 43 L32 27 L38 33 Z" fill="#FFB020"/><text x="46" y="21" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="10" letter-spacing="1">GET IT ON</text><text x="46" y="40" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="19" font-weight="600">Google Play</text></svg><span class="sr">Get it on Google Play</span></a>
+<small>Free to play. One small banner, no pop-up ads.</small>
+</div>
+<ul class="chips" aria-label="At a glance">
+<li>Plays offline</li>
+<li>No account</li>
+<li>No subscription</li>
+<li>50 languages</li>
 </ul>
-<p><a href="privacy-policy.html">Privacy policy</a> - <a href="mailto:kalmariumservices@gmail.com">Contact</a></p>
-</main></body></html>
+</div>
+<figure class="art">
+<img src="img/hero-art.webp" width="464" height="500" fetchpriority="high" alt="Six mahjong tiles with a red sun, bamboo, a wave, a maple leaf, a pine and cherry blossom, beside a crane and ink-wash mountains">
+</figure>
+</div>
+</section>
+
+<section id="features" aria-labelledby="features-h">
+<div class="wrap">
+<h2 id="features-h">What makes it different</h2>
+<p class="lead">Classic mahjong solitaire, played the quiet way. These are the things the game actually does.</p>
+<div class="grid">
+<article class="card"><p class="num">01</p><h3>365 levels in 12 worlds</h3><p>A level for every day of the year. Each month is its own world with its own scenery and tile style, from Snow Garden and Lantern Festival to Sakura Path, Andean Sun and Northern Solstice. Boards come in 18 shapes with a gentle difficulty cycle.</p></article>
+<article class="card"><p class="num">02</p><h3>Large, clear tiles</h3><p>Big tiles with bold symbols and a unique picture on every pair, so they are easy to tell apart. Pinch to zoom on any board, switch on classic tile faces, or move the toolbar to the left.</p></article>
+<article class="card"><p class="num">03</p><h3>A Daily Challenge</h3><p>A fresh board each day, the same for every player. Keep your streak with streak freezes and earn bronze, silver and gold badges each month.</p></article>
+<article class="card"><p class="num">04</p><h3>Keen Eye mode</h3><p>A second kind of puzzle for sharp eyes: 60 boards of near-identical tiles. Press and hold to magnify, then find the true pair.</p></article>
+<article class="card"><p class="num">05</p><h3>Endless mode and theme packs</h3><p>Past the 365 days, Endless runs to level 9999. Twelve theme packs add their own pictures and 100 levels each, from wild animals and ocean life to flags and sky and space.</p></article>
+<article class="card"><p class="num">06</p><h3>Calm, offline, fair</h3><p>Every board is solvable. Undo is unlimited and Shuffle is free. It plays without WiFi and without an account. Sign in to Google Play Games if you want leaderboards and cloud save.</p></article>
+</div>
+</div>
+</section>
+
+<section id="screenshots" class="band" aria-labelledby="shots-h">
+<div class="wrap">
+<h2 id="shots-h">See it in play</h2>
+<p class="lead">Screenshots from the Android app.</p>
+<ul class="shots" aria-label="Mahjong365 screenshots">
+<li><figure><img src="img/shot-1.webp" width="360" height="640" loading="lazy" alt="Mahjong365 board of large picture tiles on day 100, over an ink-wash garden scene"><figcaption>Large tiles, calm scenery</figcaption></figure></li>
+<li><figure><img src="img/shot-2.webp" width="360" height="640" loading="lazy" alt="World list with ink-wash pictures such as Snow Garden, Lantern Festival and Sakura Path"><figcaption>A level for every day, in 12 worlds</figcaption></figure></li>
+<li><figure><img src="img/shot-3.webp" width="360" height="640" loading="lazy" alt="Day 303 board of large picture tiles in a festival scene, with 56 pairs to clear"><figcaption>Big, clear tiles on every board</figcaption></figure></li>
+<li><figure><img src="img/shot-4.webp" width="360" height="640" loading="lazy" alt="Daily Challenge screen with a 12 day streak and a calendar of completed days"><figcaption>A new challenge every day</figcaption></figure></li>
+<li><figure><img src="img/shot-5.webp" width="360" height="640" loading="lazy" alt="Keen Eye mode with a magnifier showing a rice ball tile among near-identical tiles"><figcaption>Keen Eye: spot the tiny difference</figcaption></figure></li>
+<li><figure><img src="img/shot-6.webp" width="360" height="640" loading="lazy" alt="Level complete screen with three stars, a score, coins earned and a fun fact about snowflakes"><figcaption>A fun fact at every finish</figcaption></figure></li>
+</ul>
+</div>
+</section>
+
+<section id="who" aria-labelledby="who-h">
+<div class="wrap two">
+<div>
+<h2 id="who-h">Who it is for</h2>
+<p>Mahjong365 is made for people who want a puzzle that is easy on the eyes and easy on the nerves.</p>
+<ul class="small-list">
+<li>Seniors and anyone tired of tiny tiles and busy screens.</li>
+<li>Relaxed players who want a short daily puzzle with their tea or coffee.</li>
+<li>Anyone who dislikes pop-up ads, timers and pressure.</li>
+<li>People who play on a phone, a tablet or a foldable, including wide landscape boards.</li>
+</ul>
+<p>If you want a fast, competitive game with lives and countdowns, this is not that game.</p>
+</div>
+<div>
+<h2>How to play</h2>
+<ol class="small-list">
+<li>Tap two identical tiles that are free: not covered, and open on the left or right side.</li>
+<li>Matched pairs leave the board and uncover the tiles below.</li>
+<li>Clear every tile to complete the level.</li>
+</ol>
+<p>Whatever you call it, mahjong solitaire, mahjongg, Shanghai solitaire or tile matching, the idea is the same.</p>
+</div>
+</div>
+</section>
+
+<section id="price" class="band" aria-labelledby="price-h">
+<div class="wrap">
+<h2 id="price-h">Price and ads, stated plainly</h2>
+<div class="card price">
+<p><strong>Free to play.</strong> The free version shows one small banner at the bottom of the screen and never a pop-up between levels. If you want extra hints you can choose to watch a short rewarded video. One optional lifetime Premium purchase unlocks every world and tile style, gives unlimited hints and removes all ads. There is no subscription. The banner and the optional video use Google AdMob, which is described in the <a href="privacy-policy.html">privacy policy</a>.</p>
+</div>
+</div>
+</section>
+
+<section id="faq" aria-labelledby="faq-h">
+<div class="wrap">
+<h2 id="faq-h">Questions and answers</h2>
+<details><summary>Is Mahjong365 free?</summary><p>Yes. It is free to play, with one small banner at the bottom of the screen and no pop-up ads between levels. Extra hints are available through an optional rewarded video. One optional lifetime Premium purchase unlocks every world and tile style, gives unlimited hints and removes all ads. There is no subscription.</p></details>
+<details><summary>Does Mahjong365 work offline?</summary><p>Yes. You can play without WiFi or mobile data, and there is no account or sign-up. Signing in to Google Play Games is optional and only adds cloud save and leaderboards.</p></details>
+<details><summary>Can every board be solved?</summary><p>Yes. Boards are built to be solvable, so there are no dead ends. Undo is unlimited and free, Shuffle is free, and there is no timer that makes you fail.</p></details>
+<details><summary>Is it easy to see for older eyes?</summary><p>That is what it is built for. The tiles are large with bold symbols, you can pinch to zoom on any board, classic mahjong tile faces are optional, and the toolbar can be switched to the left-hand side.</p></details>
+<details><summary>What is Keen Eye mode?</summary><p>Keen Eye is a second puzzle mode with 60 boards of near-identical tiles. Press and hold to magnify, then find the true pair.</p></details>
+<details><summary>What is there to play after the 365 levels?</summary><p>Endless mode runs up to level 9999, growing from calm warm-ups to big milestone boards. There are also twelve theme packs, each with its own pictures and 100 levels.</p></details>
+</div>
+</section>
+
+<section class="band" aria-labelledby="get-h">
+<div class="wrap">
+<h2 id="get-h">Play today's board</h2>
+<p class="lead">Free on Google Play for Android phones, tablets and foldables.</p>
+<div class="cta">
+<a class="badge" href="https://play.google.com/store/apps/details?id=com.kalmarium.mahjong365&amp;referrer=utm_source%3Dwebsite%26utm_medium%3Dhero" aria-label="Get it on Google Play"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 54" width="180" height="54" aria-hidden="true" focusable="false"><rect x="1" y="1" width="178" height="52" rx="9" fill="#000" stroke="#8C9AA3" stroke-width="1.5"/><path d="M14 11 L14 43 L32 27 Z" fill="#2EC4B6"/><path d="M14 11 L32 27 L38 21 Z" fill="#8FD8FF"/><path d="M14 43 L32 27 L38 33 Z" fill="#FFB020"/><text x="46" y="21" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="10" letter-spacing="1">GET IT ON</text><text x="46" y="40" fill="#fff" font-family="system-ui,Arial,sans-serif" font-size="19" font-weight="600">Google Play</text></svg><span class="sr">Get it on Google Play</span></a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="two">
+<div>
+<h2>Mahjong365</h2>
+<ul>
+<li><a href="privacy-policy.html">Privacy policy</a></li>
+<li><a href="delete-data.html">Delete your data</a></li>
+<li>Contact: <a href="mailto:kalmariumservices@gmail.com">kalmariumservices@gmail.com</a></li>
+</ul>
+<p class="note">The scenery and tile pictures in the game were made with the help of an AI image generator and then edited by the studio.</p>
+</div>
+<div>
+<h2>More from Kalmarium</h2>
+<ul class="more">
+<li><a href="https://apps.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer">All Kalmarium apps</a></li>
+<li><a href="https://knowdrop.kalmarium.com/">Knowdrop - daily trivia quiz</a></li>
+<li><a href="https://tankageddon.kalmarium.com/">Tankageddon - offline tank shooter</a></li>
+<li><a href="https://lingua.kalmarium.com/">Lingua Pairs - language memory game</a></li>
+<li><a href="https://bilingua.kalmarium.com/">Bilingua - bilingual book reader</a></li>
+<li><a href="https://prep4cert.kalmarium.com/">Prep 4 Cert - Microsoft exam practice</a></li>
+<li><a href="https://netcheck.kalmarium.com/">Ultimate Network Troubleshooter - WiFi analyzer and network tools</a></li>
+<li><a href="https://intercom.kalmarium.com/">Lazy Intercom - family intercom app</a></li>
+<li><a href="https://crackafold.kalmarium.com/">Crack A Fold - foldable phone prank</a></li>
+</ul>
+</div>
+</div>
+<div class="legal">
+<p>&copy; 2026 Kalmarium Services BV</p>
+<p><a href="https://kalmarium.com">kalmarium.com</a></p>
+<p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>

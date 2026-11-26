@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gaborkalmar83.github.io/mahjong365-info/sitemap.xml
+Sitemap: https://mahjong365.kalmarium.com/sitemap.xml

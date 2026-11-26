@@ -25,98 +25,186 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
- "@type": ["VideoGame", "MobileApplication"],
- "name": "Mahjong365",
- "description": "Mahjong365 is a calm mahjong solitaire game for Android with large, clear tiles, a level for every day of the year in 12 worlds, a daily challenge, offline play and no pop-up ads. Free to play with one small banner and an optional lifetime Premium purchase.",
- "operatingSystem": "Android",
- "applicationCategory": "GameApplication",
- "gamePlatform": "Android",
- "inLanguage": ["en", "zh", "hi", "es", "fr", "ar", "bn", "pt", "ru", "ur", "id", "de", "ja", "sw", "mr", "te", "tr", "ta", "vi", "ko", "it", "th", "gu", "fa", "pl", "uk", "ml", "kn", "pa", "nl", "ro", "cs", "el", "hu", "sv", "he", "ms", "fil", "zh-TW", "ne", "si", "am", "af", "da", "fi", "nb", "bg", "sr", "hr", "sk"],
- "screenshot": ["https://mahjong365.kalmarium.com/img/shot-1.webp", "https://mahjong365.kalmarium.com/img/shot-2.webp", "https://mahjong365.kalmarium.com/img/shot-3.webp", "https://mahjong365.kalmarium.com/img/shot-4.webp", "https://mahjong365.kalmarium.com/img/shot-5.webp", "https://mahjong365.kalmarium.com/img/shot-6.webp"],
- "genre": "Puzzle",
- "playMode": "SinglePlayer",
- "offers": {
-  "@type": "Offer",
-  "price": "0",
-  "priceCurrency": "EUR"
- },
- "installUrl": "https://play.google.com/store/apps/details?id=com.kalmarium.mahjong365&referrer=utm_source%3Dwebsite%26utm_medium%3Dhero",
- "url": "https://mahjong365.kalmarium.com/",
- "image": "https://mahjong365.kalmarium.com/og-image.jpg",
- "publisher": {
-  "@type": "Organization",
-  "name": "Kalmarium Services BV",
-  "url": "https://kalmarium.com"
- }
-}
-</script>
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [
+ "@graph": [
   {
-   "@type": "Question",
-   "name": "Is Mahjong365 free?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. It is free to play, with one small banner at the bottom of the screen and no pop-up ads between levels. Extra hints are available through an optional rewarded video. One optional lifetime Premium purchase unlocks every world and tile style, gives unlimited hints and removes all ads. There is no subscription."
+   "@type": [
+    "VideoGame",
+    "MobileApplication"
+   ],
+   "@id": "https://mahjong365.kalmarium.com/#app",
+   "name": "Mahjong365",
+   "description": "Mahjong365 is a calm mahjong solitaire game for Android with large, clear tiles, a level for every day of the year in 12 worlds, a daily challenge, offline play and no pop-up ads. Free to play with one small banner and an optional lifetime Premium purchase.",
+   "operatingSystem": "Android",
+   "applicationCategory": "GameApplication",
+   "gamePlatform": "Android",
+   "inLanguage": [
+    "en",
+    "zh",
+    "hi",
+    "es",
+    "fr",
+    "ar",
+    "bn",
+    "pt",
+    "ru",
+    "ur",
+    "id",
+    "de",
+    "ja",
+    "sw",
+    "mr",
+    "te",
+    "tr",
+    "ta",
+    "vi",
+    "ko",
+    "it",
+    "th",
+    "gu",
+    "fa",
+    "pl",
+    "uk",
+    "ml",
+    "kn",
+    "pa",
+    "nl",
+    "ro",
+    "cs",
+    "el",
+    "hu",
+    "sv",
+    "he",
+    "ms",
+    "fil",
+    "zh-TW",
+    "ne",
+    "si",
+    "am",
+    "af",
+    "da",
+    "fi",
+    "nb",
+    "bg",
+    "sr",
+    "hr",
+    "sk"
+   ],
+   "screenshot": [
+    "https://mahjong365.kalmarium.com/img/shot-1.webp",
+    "https://mahjong365.kalmarium.com/img/shot-2.webp",
+    "https://mahjong365.kalmarium.com/img/shot-3.webp",
+    "https://mahjong365.kalmarium.com/img/shot-4.webp",
+    "https://mahjong365.kalmarium.com/img/shot-5.webp",
+    "https://mahjong365.kalmarium.com/img/shot-6.webp"
+   ],
+   "genre": "Puzzle",
+   "playMode": "SinglePlayer",
+   "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+   },
+   "installUrl": "https://play.google.com/store/apps/details?id=com.kalmarium.mahjong365&referrer=utm_source%3Dwebsite%26utm_medium%3Dhero",
+   "url": "https://mahjong365.kalmarium.com/",
+   "image": "https://mahjong365.kalmarium.com/og-image.jpg",
+   "publisher": {
+    "@id": "https://apps.kalmarium.com/#org"
    }
   },
   {
-   "@type": "Question",
-   "name": "Does Mahjong365 work offline?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. You can play without WiFi or mobile data, and there is no account or sign-up. Signing in to Google Play Games is optional and only adds cloud save and leaderboards."
-   }
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Is Mahjong365 free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. It is free to play, with one small banner at the bottom of the screen and no pop-up ads between levels. Extra hints are available through an optional rewarded video. One optional lifetime Premium purchase unlocks every world and tile style, gives unlimited hints and removes all ads. There is no subscription."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does Mahjong365 work offline?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. You can play without WiFi or mobile data, and there is no account or sign-up. Signing in to Google Play Games is optional and only adds cloud save and leaderboards."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can every board be solved?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Boards are built to be solvable, so there are no dead ends. Undo is unlimited and free, Shuffle is free, and there is no timer that makes you fail."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is it easy to see for older eyes?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "That is what it is built for. The tiles are large with bold symbols, you can pinch to zoom on any board, classic mahjong tile faces are optional, and the toolbar can be switched to the left-hand side."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is Keen Eye mode?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Keen Eye is a second puzzle mode with 60 boards of near-identical tiles. Press and hold to magnify, then find the true pair."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is there to play after the 365 levels?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Endless mode runs up to level 9999, growing from calm warm-ups to big milestone boards. There are also twelve theme packs, each with its own pictures and 100 levels."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is the Daily Challenge?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A fresh mahjong board every day, the same for every player. You keep a streak, protect it with streak freezes, and earn bronze, silver and gold badges each month."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I play mahjong solitaire?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tap two identical tiles that are free: not covered, and open on the left or right side. Matched pairs leave the board and uncover the tiles below. Clear every tile to complete the level."
+     }
+    }
+   ]
   },
   {
-   "@type": "Question",
-   "name": "Can every board be solved?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Yes. Boards are built to be solvable, so there are no dead ends. Undo is unlimited and free, Shuffle is free, and there is no timer that makes you fail."
-   }
+   "@type": "Organization",
+   "@id": "https://apps.kalmarium.com/#org",
+   "name": "Kalmarium Services",
+   "legalName": "Kalmarium Services B.V.",
+   "alternateName": [
+    "Kalmarium",
+    "Kalmarium Apps"
+   ],
+   "url": "https://apps.kalmarium.com/",
+   "logo": "https://apps.kalmarium.com/brand/dev-icon-512.png",
+   "email": "kalmariumservices@gmail.com",
+   "sameAs": [
+    "https://play.google.com/store/apps/developer?id=Kalmarium+Services",
+    "https://www.youtube.com/@kalmariumservices",
+    "https://kalmarium.com"
+   ]
   },
   {
-   "@type": "Question",
-   "name": "Is it easy to see for older eyes?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "That is what it is built for. The tiles are large with bold symbols, you can pinch to zoom on any board, classic mahjong tile faces are optional, and the toolbar can be switched to the left-hand side."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What is Keen Eye mode?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Keen Eye is a second puzzle mode with 60 boards of near-identical tiles. Press and hold to magnify, then find the true pair."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What is there to play after the 365 levels?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Endless mode runs up to level 9999, growing from calm warm-ups to big milestone boards. There are also twelve theme packs, each with its own pictures and 100 levels."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "What is the Daily Challenge?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "A fresh mahjong board every day, the same for every player. You keep a streak, protect it with streak freezes, and earn bronze, silver and gold badges each month."
-   }
-  },
-  {
-   "@type": "Question",
-   "name": "How do I play mahjong solitaire?",
-   "acceptedAnswer": {
-    "@type": "Answer",
-    "text": "Tap two identical tiles that are free: not covered, and open on the left or right side. Matched pairs leave the board and uncover the tiles below. Clear every tile to complete the level."
+   "@type": "WebSite",
+   "@id": "https://mahjong365.kalmarium.com/#website",
+   "name": "Mahjong365",
+   "url": "https://mahjong365.kalmarium.com/",
+   "publisher": {
+    "@id": "https://apps.kalmarium.com/#org"
    }
   }
  ]
@@ -201,6 +289,10 @@ footer .note{color:var(--muted);margin:14px 0 0}
  .more{grid-template-columns:repeat(2,1fr)}
 }
 @media (min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+.brandwrap{display:flex;flex-wrap:wrap;align-items:center;gap:2px 14px}
+.byline{font-size:.88rem;font-weight:600;color:var(--muted)}
+.byline:hover{color:var(--accent)}
+.related-app{margin:18px 0 0;color:var(--muted)}
 </style>
 <script defer src="https://overwatch.kalmarium.com/h.js" data-app="mahjong365"></script>
 </head>
@@ -208,7 +300,10 @@ footer .note{color:var(--muted);margin:14px 0 0}
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
 <div class="wrap">
+<div class="brandwrap">
 <a class="brand" href="./"><img src="img/icon-192.webp" width="36" height="36" alt="Mahjong365 app icon"><span>Mahjong<b>365</b></span></a>
+<a class="byline" href="https://apps.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=byline">By Kalmarium Services</a>
+</div>
 <nav aria-label="Page sections"><ul>
 <li><a href="#features">Features</a></li>
 <li><a href="#daily">Daily mahjong</a></li>
@@ -339,6 +434,7 @@ footer .note{color:var(--muted);margin:14px 0 0}
 <li><a href="how-to-play-mahjong-solitaire.html">How to play mahjong solitaire</a></li>
 <li><a href="daily-mahjong.html">Daily mahjong: a level for every day of the year</a></li>
 </ul>
+<p class="related-app">If you like Mahjong365, try <a href="https://knowdrop.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=related">Knowdrop: daily trivia quiz</a>.</p>
 </div>
 </section>
 
@@ -367,22 +463,22 @@ footer .note{color:var(--muted);margin:14px 0 0}
 <p class="note">The scenery and tile pictures in the game were made with the help of an AI image generator and then edited by the studio.</p>
 </div>
 <div>
-<h2>More from Kalmarium</h2>
+<h2>More apps by Kalmarium Services</h2>
 <ul class="more">
 <li><a href="https://apps.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer">All Kalmarium apps</a></li>
-<li><a href="https://knowdrop.kalmarium.com/">Knowdrop - daily trivia quiz</a></li>
-<li><a href="https://tankageddon.kalmarium.com/">Tankageddon - offline tank shooter</a></li>
-<li><a href="https://lingua.kalmarium.com/">Lingua Pairs - language memory game</a></li>
-<li><a href="https://bilingua.kalmarium.com/">Bilingua - bilingual book reader</a></li>
-<li><a href="https://prep4cert.kalmarium.com/">Prep 4 Cert - Microsoft exam practice</a></li>
-<li><a href="https://netcheck.kalmarium.com/">Ultimate Network Troubleshooter - WiFi analyzer and network tools</a></li>
-<li><a href="https://intercom.kalmarium.com/">Lazy Intercom - family intercom app</a></li>
-<li><a href="https://crackafold.kalmarium.com/">Crack A Fold - foldable phone prank</a></li>
+<li><a href="https://knowdrop.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Knowdrop: daily trivia quiz</a></li>
+<li><a href="https://tankageddon.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Tankageddon: offline tank shooter</a></li>
+<li><a href="https://lingua.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Lingua Pairs: word memory game for languages</a></li>
+<li><a href="https://bilingua.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Bilingua Reader: bilingual EPUB and PDF reader</a></li>
+<li><a href="https://prep4cert.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Prep 4 Cert: Microsoft exam practice questions</a></li>
+<li><a href="https://netcheck.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Ultimate Network Troubleshooter: WiFi analyzer and network tools</a></li>
+<li><a href="https://intercom.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Lazy Intercom: family intercom for Android</a></li>
+<li><a href="https://crackafold.kalmarium.com/?utm_source=mahjong365&amp;utm_medium=footer&amp;utm_campaign=sister">Crack A Fold: foldable phone prank</a></li>
 </ul>
 </div>
 </div>
 <div class="legal">
-<p>&copy; 2026 Kalmarium Services BV</p>
+<p>&copy; 2026 Kalmarium Services B.V., Almere, the Netherlands.</p>
 <p><a href="https://kalmarium.com">kalmarium.com</a></p>
 <p>Google Play and the Google Play logo are trademarks of Google LLC.</p>
 </div>
